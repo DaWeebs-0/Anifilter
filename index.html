@@ -1,0 +1,335 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AniFilter</title>
+
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Fonts Links -->
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Candal">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Afacad">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Andika">
+  <link href="anime.txt">
+  <script src="server.js" defer></script>
+</head>
+
+<body>
+  <div class="header">
+    <h1 class="title-left">Ani</h1>
+    <h1 class="title-right">Filter</h1>
+  </div>
+  <hr />
+  
+
+  <div class="Search">
+
+    <nav>
+
+     
+      <button input type="button"class="search-button"id = "searchbtn">Search</button>
+
+    </nav>
+
+  </div>
+
+  
+
+  <div class="dropdown">
+
+    <button class="dropbtn" >Genre</button>
+
+    <div class="dropdown-content"class="flex-container">
+
+      <label class="container">Gourmet<input type="checkbox" value="Gourmet">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Fantasy<input type="checkbox" value="Fantasy">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Romance<input type="checkbox" value="Romance">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Action<input type="checkbox" value="Action">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">School<input type="checkbox" value="School">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Sports<input type="checkbox" value="Sports">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Comedy<input type="checkbox" value="Comedy">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Adventure<input type="checkbox" value="Adventure">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Horror<input type="checkbox" value="Horror">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Avant Garde<input type="checkbox" value="Avant Garde">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Mystery<input type="checkbox" value="Mystery">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Drama<input type="checkbox" value="Drama">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Sci-Fi<input type="checkbox" value="Sci-Fi">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Supernatural<input type="checkbox" value="Supernatural">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Military<input type="checkbox" value="Military">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Mecha<input type="checkbox" value="Mecha">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Ecchi<input type="checkbox" value="Ecchi">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Vampire<input type="checkbox" value="Vampire">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Shounen<input type="checkbox" value="Shounen">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Shoujo<input type="checkbox" value="Shoujo">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Magic<input type="checkbox" value="Magic">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Space<input type="checkbox" value="Space">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Slice of Life<input type="checkbox" value="Slice of Life">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Seinen<input type="checkbox" value="Seinen">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Harem<input type="checkbox" value="Harem">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Game<input type="checkbox" value="Game">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Thriller<input type="checkbox" value="Thriller">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Hentai<input type="checkbox" value="Hentai">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Demons<input type="checkbox" value="Demons">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Dementia<input type="checkbox" value="Dementia">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Kids<input type="checkbox" value="Kids">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Parody<input type="checkbox" value="Parody">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Samurai<input type="checkbox" value="Samurai">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Historical<input type="checkbox" value="Historical">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Music<input type="checkbox" value="Music">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Super Powers<input type="checkbox" value="Super Powers">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Psychological<input type="checkbox" value="Psychological">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Yuri<input type="checkbox" value="Yuri">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Yaoi<input type="checkbox" value="Yaoi">
+        <span class="checkmark"></span>
+      </label>
+      
+
+      
+
+      <!-- Add more buttons here -->
+
+    </div>
+
+  </div>
+  
+
+
+
+  <div id="genreContent">
+
+    <!-- Content for the selected genre will be displayed here -->
+
+  </div>
+
+
+  <script>
+
+    // Function to fetch genre data from the server
+
+    function fetchGenreData(genre) {
+
+      fetch(`/GetGenreData?genre=${genre}`)
+
+        .then(response => response.text())
+
+        .then(data => {
+
+          // Display the data (e.g., content of the file) inside the genreContent div
+
+          document.getElementById('genreContent').innerHTML = data;
+
+        })
+
+        .catch(error => {
+
+          console.error('Error fetching genre data:', error);
+
+        });
+
+    }
+
+    
+
+  </script>
+
+  <div class="dropdown2">
+
+    <button class="dropbtn2">Year</button>
+
+    <div class="dropdown-content2"class="flex-container2">
+
+     <!-- Dropdown for Year -->
+<div class="dropdown2">
+ 
+  <div class="dropdown-content2">
+    
+    <label class="year-label"><input type="checkbox" class="year" value="1962"><span class="checkmark"></span> 1962</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1963"><span class="checkmark"></span> 1963</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1964"><span class="checkmark"></span> 1964</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1965"><span class="checkmark"></span> 1965</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1966"><span class="checkmark"></span> 1966</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1967"><span class="checkmark"></span> 1967</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1968"><span class="checkmark"></span> 1968</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1969"><span class="checkmark"></span> 1969</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1970"><span class="checkmark"></span> 1970</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1971"><span class="checkmark"></span> 1971</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1972"><span class="checkmark"></span> 1972</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1973"><span class="checkmark"></span> 1973</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1974"><span class="checkmark"></span> 1974</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1975"><span class="checkmark"></span> 1975</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1976"><span class="checkmark"></span> 1976</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1977"><span class="checkmark"></span> 1977</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1978"><span class="checkmark"></span> 1978</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1979"><span class="checkmark"></span> 1979</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1980"><span class="checkmark"></span> 1980</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1981"><span class="checkmark"></span> 1981</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1982"><span class="checkmark"></span> 1982</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1983"><span class="checkmark"></span> 1983</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1984"><span class="checkmark"></span> 1984</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1985"><span class="checkmark"></span> 1985</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1986"><span class="checkmark"></span> 1986</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1987"><span class="checkmark"></span> 1987</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1988"><span class="checkmark"></span> 1988</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1989"><span class="checkmark"></span> 1989</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1990"><span class="checkmark"></span> 1990</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1991"><span class="checkmark"></span> 1991</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1992"><span class="checkmark"></span> 1992</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1993"><span class="checkmark"></span> 1993</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1994"><span class="checkmark"></span> 1994</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1995"><span class="checkmark"></span> 1995</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1996"><span class="checkmark"></span> 1996</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1997"><span class="checkmark"></span> 1997</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1998"><span class="checkmark"></span> 1998</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1999"><span class="checkmark"></span> 1999</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2000"><span class="checkmark"></span> 2000</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2001"><span class="checkmark"></span> 2001</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2002"><span class="checkmark"></span> 2002</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2003"><span class="checkmark"></span> 2003</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2004"><span class="checkmark"></span> 2004</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2005"><span class="checkmark"></span> 2005</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2006"><span class="checkmark"></span> 2006</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2007"><span class="checkmark"></span> 2007</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2008"><span class="checkmark"></span> 2008</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2009"><span class="checkmark"></span> 2009</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2010"><span class="checkmark"></span> 2010</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2011"><span class="checkmark"></span> 2011</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2012"><span class="checkmark"></span> 2012</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2013"><span class="checkmark"></span> 2013</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2014"><span class="checkmark"></span> 2014</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2015"><span class="checkmark"></span> 2015</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2016"><span class="checkmark"></span> 2016</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2017"><span class="checkmark"></span> 2017</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2018"><span class="checkmark"></span> 2018</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2019"><span class="checkmark"></span> 2019</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2020"><span class="checkmark"></span> 2020</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2021"><span class="checkmark"></span> 2021</label>
+    
+    
+
+      </div>
+
+      </div>
+      <div id="results"></div>
+
+  <!-- Include the client-side JS -->
+  <script src="script.js" defer></script>
+</body>
+
+</html>
