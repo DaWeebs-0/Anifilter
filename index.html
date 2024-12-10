@@ -1,0 +1,452 @@
+
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AniFilter</title>
+  <link rel="icon" type="image/x-icon" href="favicon.png">
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- Google Fonts Links -->
+  <link href="https://fonts.googleapis.com/css2?family=Audiowide&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Candal">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Afacad">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Andika">
+  <script src="server.js" defer></script>
+</head>
+
+<body>
+  <div class="header">
+    <h1 class="title-left">Ani</h1>
+    <h1 class="title-right">Filter</h1>
+  </div>
+  
+  
+
+  <div class="Search">
+
+    <nav>
+
+     
+      <button input type="button"class="search-button"id = "searchbtn">Search</button>
+
+    </nav>
+    <label class="infolbl">Any problems with the website? Email: mjani@stu.acs-schoools.com</label>
+
+  </div>
+
+  
+
+  <div class="dropdown">
+
+    <button class="dropbtn" >Genre</button>
+
+    <div class="dropdown-content"class="flex-container">
+
+      <label class="container">Gourmet<input type="checkbox" value="Gourmet">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Fantasy<input type="checkbox" value="Fantasy">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Romance<input type="checkbox" value="Romance">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Action<input type="checkbox" value="Action">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">School<input type="checkbox" value="School">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Sports<input type="checkbox" value="Sports">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Comedy<input type="checkbox" value="Comedy">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Adventure<input type="checkbox" value="Adventure">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Horror<input type="checkbox" value="Horror">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Avant Garde<input type="checkbox" value="Avant Garde">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Mystery<input type="checkbox" value="Mystery">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Drama<input type="checkbox" value="Drama">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Sci-Fi<input type="checkbox" value="Sci-Fi">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Supernatural<input type="checkbox" value="Supernatural">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Military<input type="checkbox" value="Military">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Mecha<input type="checkbox" value="Mecha">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Ecchi<input type="checkbox" value="Ecchi">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Vampire<input type="checkbox" value="Vampire">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Shounen<input type="checkbox" value="Shounen">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Shoujo<input type="checkbox" value="Shoujo">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Magic<input type="checkbox" value="Magic">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Space<input type="checkbox" value="Space">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Slice of Life<input type="checkbox" value="Slice of Life">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Seinen<input type="checkbox" value="Seinen">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Harem<input type="checkbox" value="Harem">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Game<input type="checkbox" value="Game">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Thriller<input type="checkbox" value="Thriller">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Hentai<input type="checkbox" value="Hentai">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Demons<input type="checkbox" value="Demons">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Dementia<input type="checkbox" value="Dementia">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Kids<input type="checkbox" value="Kids">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Parody<input type="checkbox" value="Parody">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Samurai<input type="checkbox" value="Samurai">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Historical<input type="checkbox" value="Historical">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Music<input type="checkbox" value="Music">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Super Powers<input type="checkbox" value="Super Powers">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Psychological<input type="checkbox" value="Psychological">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Yuri<input type="checkbox" value="Yuri">
+        <span class="checkmark"></span>
+      </label>
+      
+      <label class="container">Yaoi<input type="checkbox" value="Yaoi">
+        <span class="checkmark"></span>
+      </label>
+      
+
+      
+
+      <!-- Add more buttons here -->
+
+    </div>
+
+  </div>
+  
+
+
+
+  <div id="genreContent">
+
+    <!-- Content for the selected genre will be displayed here -->
+
+  </div>
+
+
+  <script>
+
+    // Function to fetch genre data from the server
+
+    function fetchGenreData(genre) {
+
+      fetch(`/GetGenreData?genre=${genre}`)
+
+        .then(response => response.text())
+
+        .then(data => {
+
+          // Display the data (e.g., content of the file) inside the genreContent div
+
+          document.getElementById('genreContent').innerHTML = data;
+
+        })
+
+        .catch(error => {
+
+          console.error('Error fetching genre data:', error);
+
+        });
+
+    }
+
+    
+
+  </script>
+   <div class="dropdown4">
+
+    <button class="dropbtn4">Producer</button>
+    <div class="dropdown-content4"class="flex-container4"></div>
+  
+    <div class="dropdown4">
+
+    <div class="dropdown-content4">
+      
+      <label class="production-label"><input type="checkbox" class="rating" value="Toei Animation"><span class="checkmark"></span> Toei Animation</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Madhouse"><span class="checkmark"></span> Madhouse</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Bones"><span class="checkmark"></span> Bones</label>
+<label class="production-label"><input type="checkbox" class="rating" value="J.C.Staff"><span class="checkmark"></span> J.C.Staff</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Nippon Animation"><span class="checkmark"></span> Nippon Animation</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Studio Pierrot"><span class="checkmark"></span> Studio Pierrot</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Trans Arts"><span class="checkmark"></span> Trans Arts</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Studio Comet"><span class="checkmark"></span> Studio Comet</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Gonzo"><span class="checkmark"></span> Gonzo</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Tatsunoko Production"><span class="checkmark"></span> Tatsunoko Production</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Gainax"><span class="checkmark"></span> Gainax</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Production I.G"><span class="checkmark"></span> Production I.G</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Studio Deen"><span class="checkmark"></span> Studio Deen</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Gallop"><span class="checkmark"></span> Gallop</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Tokyo Movie Shinsha"><span class="checkmark"></span> Tokyo Movie Shinsha</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Bee Train"><span class="checkmark"></span> Bee Train</label>
+<label class="production-label"><input type="checkbox" class="rating" value="AIC"><span class="checkmark"></span> AIC</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Hal Film Maker"><span class="checkmark"></span> Hal Film Maker</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Digital Frontier"><span class="checkmark"></span> Digital Frontier</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Xebec"><span class="checkmark"></span> Xebec</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Daume"><span class="checkmark"></span> Daume</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Nomad"><span class="checkmark"></span> Nomad</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Sunrise"><span class="checkmark"></span> Sunrise</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Kyoto Animation"><span class="checkmark"></span> Kyoto Animation</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Seven Arcs"><span class="checkmark"></span> Seven Arcs</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Asread"><span class="checkmark"></span> Asread</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Studio Hibari"><span class="checkmark"></span> Studio Hibari</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Nakamura Production"><span class="checkmark"></span> Nakamura Production</label>
+<label class="production-label"><input type="checkbox" class="rating" value="TMS Entertainment"><span class="checkmark"></span> TMS Entertainment</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Imagin"><span class="checkmark"></span> Imagin</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Studio Live"><span class="checkmark"></span> Studio Live</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Zexcs"><span class="checkmark"></span> Zexcs</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Ufotable"><span class="checkmark"></span> Ufotable</label>
+<label class="production-label"><input type="checkbox" class="rating" value="feel."><span class="checkmark"></span> feel.</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Studio Flag"><span class="checkmark"></span> Studio Flag</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Studio Fantasia"><span class="checkmark"></span> Studio Fantasia</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Studio Ghibli"><span class="checkmark"></span> Studio Ghibli</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Pastel"><span class="checkmark"></span> Pastel</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Arms"><span class="checkmark"></span> Arms</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Manglobe"><span class="checkmark"></span> Manglobe</label>
+<label class="production-label"><input type="checkbox" class="rating" value="APPP"><span class="checkmark"></span> APPP</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Chaos Project"><span class="checkmark"></span> Chaos Project</label>
+<label class="production-label"><input type="checkbox" class="rating" value="GANSIS"><span class="checkmark"></span> GANSIS</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Tokyo Kids"><span class="checkmark"></span> Tokyo Kids</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Shin-Ei Animation"><span class="checkmark"></span> Shin-Ei Animation</label>
+<label class="production-label"><input type="checkbox" class="rating" value="CoMix Wave Films"><span class="checkmark"></span> CoMix Wave Films</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Magic Bus"><span class="checkmark"></span> Magic Bus</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Group TAC"><span class="checkmark"></span> Group TAC</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Silver"><span class="checkmark"></span> Silver</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Radix"><span class="checkmark"></span> Radix</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Annapuru"><span class="checkmark"></span> Annapuru</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Triangle Staff"><span class="checkmark"></span> Triangle Staff</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Square Enix"><span class="checkmark"></span> Square Enix</label>
+<label class="production-label"><input type="checkbox" class="rating" value="TNK"><span class="checkmark"></span> TNK</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Production Reed"><span class="checkmark"></span> Production Reed</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Amber Film Works"><span class="checkmark"></span> Amber Film Works</label>
+<label class="production-label"><input type="checkbox" class="rating" value="E&G Films"><span class="checkmark"></span> E&G Films</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Shaft"><span class="checkmark"></span> Shaft</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Trinet Entertainment"><span class="checkmark"></span> Trinet Entertainment</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Picture Magic"><span class="checkmark"></span> Picture Magic</label>
+<label class="production-label"><input type="checkbox" class="rating" value="ASTA"><span class="checkmark"></span> ASTA</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Studio Matrix"><span class="checkmark"></span> Studio Matrix</label>
+<label class="production-label"><input type="checkbox" class="rating" value="M.S.C"><span class="checkmark"></span> M.S.C</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Rikuentai"><span class="checkmark"></span> Rikuentai</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Minami Machi Bugyousho"><span class="checkmark"></span> Minami Machi Bugyousho</label>
+<label class="production-label"><input type="checkbox" class="rating" value="animate film"><span class="checkmark"></span> animate film</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Actas"><span class="checkmark"></span> Actas</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Tezuka Productions"><span class="checkmark"></span> Tezuka Productions</label>
+<label class="production-label"><input type="checkbox" class="rating" value="SILVER LINK."><span class="checkmark"></span> SILVER LINK.</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Lerche"><span class="checkmark"></span> Lerche</label>
+<label class="production-label"><input type="checkbox" class="rating" value="MAPPA"><span class="checkmark"></span> MAPPA</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Hoods Entertainment"><span class="checkmark"></span> Hoods Entertainment</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Studio Rikka"><span class="checkmark"></span> Studio Rikka</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Milky Cartoon"><span class="checkmark"></span> Milky Cartoon</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Purple Cow Studio Japan"><span class="checkmark"></span> Purple Cow Studio Japan</label>
+<label class="production-label"><input type="checkbox" class="rating" value="SynergySP"><span class="checkmark"></span> SynergySP</label>
+<label class="production-label"><input type="checkbox" class="rating" value="Eiken"><span class="checkmark"></span> Eiken</label>
+
+    </div>
+  </div>
+</div>
+</div>
+
+
+  <div class="dropdown2">
+
+    <button class="dropbtn2">Year</button>
+
+    <div class="dropdown-content2"class="flex-container2">
+
+     <!-- Dropdown for Year -->
+<div class="dropdown2">
+ 
+  <div class="dropdown-content2">
+    
+    <label class="year-label"><input type="checkbox" class="year" value="1962"><span class="checkmark"></span> 1962</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1963"><span class="checkmark"></span> 1963</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1964"><span class="checkmark"></span> 1964</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1965"><span class="checkmark"></span> 1965</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1966"><span class="checkmark"></span> 1966</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1967"><span class="checkmark"></span> 1967</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1968"><span class="checkmark"></span> 1968</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1969"><span class="checkmark"></span> 1969</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1970"><span class="checkmark"></span> 1970</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1971"><span class="checkmark"></span> 1971</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1972"><span class="checkmark"></span> 1972</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1973"><span class="checkmark"></span> 1973</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1974"><span class="checkmark"></span> 1974</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1975"><span class="checkmark"></span> 1975</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1976"><span class="checkmark"></span> 1976</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1977"><span class="checkmark"></span> 1977</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1978"><span class="checkmark"></span> 1978</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1979"><span class="checkmark"></span> 1979</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1980"><span class="checkmark"></span> 1980</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1981"><span class="checkmark"></span> 1981</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1982"><span class="checkmark"></span> 1982</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1983"><span class="checkmark"></span> 1983</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1984"><span class="checkmark"></span> 1984</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1985"><span class="checkmark"></span> 1985</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1986"><span class="checkmark"></span> 1986</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1987"><span class="checkmark"></span> 1987</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1988"><span class="checkmark"></span> 1988</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1989"><span class="checkmark"></span> 1989</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1990"><span class="checkmark"></span> 1990</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1991"><span class="checkmark"></span> 1991</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1992"><span class="checkmark"></span> 1992</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1993"><span class="checkmark"></span> 1993</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1994"><span class="checkmark"></span> 1994</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1995"><span class="checkmark"></span> 1995</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1996"><span class="checkmark"></span> 1996</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1997"><span class="checkmark"></span> 1997</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1998"><span class="checkmark"></span> 1998</label>
+    <label class="year-label"><input type="checkbox" class="year" value="1999"><span class="checkmark"></span> 1999</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2000"><span class="checkmark"></span> 2000</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2001"><span class="checkmark"></span> 2001</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2002"><span class="checkmark"></span> 2002</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2003"><span class="checkmark"></span> 2003</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2004"><span class="checkmark"></span> 2004</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2005"><span class="checkmark"></span> 2005</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2006"><span class="checkmark"></span> 2006</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2007"><span class="checkmark"></span> 2007</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2008"><span class="checkmark"></span> 2008</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2009"><span class="checkmark"></span> 2009</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2010"><span class="checkmark"></span> 2010</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2011"><span class="checkmark"></span> 2011</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2012"><span class="checkmark"></span> 2012</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2013"><span class="checkmark"></span> 2013</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2014"><span class="checkmark"></span> 2014</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2015"><span class="checkmark"></span> 2015</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2016"><span class="checkmark"></span> 2016</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2017"><span class="checkmark"></span> 2017</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2018"><span class="checkmark"></span> 2018</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2019"><span class="checkmark"></span> 2019</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2020"><span class="checkmark"></span> 2020</label>
+    <label class="year-label"><input type="checkbox" class="year" value="2021"><span class="checkmark"></span> 2021</label>
+    
+    
+      </div>
+    </div>
+
+    </div>
+  </div>
+
+      <div id="results"></div>
+
+      <div class="dropdown3">
+
+        <button class="dropbtn3">Rating</button>
+        <div class="dropdown-content3"class="flex-container3"></div>
+      
+        <div class="dropdown3">
+
+        <div class="dropdown-content3">
+          
+          <label class="rating-label"><input type="checkbox" class="rating" value="PG - Children"><span class="checkmark"></span> PG - Children</label>
+          <label class="rating-label"><input type="checkbox" class="rating" value="PG-13 - Teens 13 or older"><span class="checkmark"></span> PG-13 - Teens 13 or older</label>
+          <label class="rating-label"><input type="checkbox" class="rating" value="R - 17+ (violence & profanity)"><span class="checkmark"></span> R - 17+ (violence & profanity)</label>
+          <label class="rating-label"><input type="checkbox" class="rating" value="R+ - Mild Nudity"><span class="checkmark"></span> R+ - Mild Nudity</label>
+          <label class="rating-label"><input type="checkbox" class="rating" value="Rx - Hentai"><span class="checkmark"></span> Rx - Hentai</label>
+         
+  
+        </div>
+        </div>  
+      </div>
+    </div>
+    
+   
+  
+  <script src="script.js" defer></script>
+
+</body>
+
+</html>
